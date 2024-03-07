@@ -1,0 +1,52 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-image: url('https://images.pexels.com/photos/164595/pexels-photo-164595.jpeg');
+    background-size: cover;
+    font-family: 'Arial', sans-serif;
+  }
+  
+  header {
+    background-color: #333;
+    padding: 1em;
+    color: white;
+    text-align: center;
+  }
+  
+  section {
+    margin: 20px;
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.8);
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 8px;
+  }
+  
+  input {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 16px;
+    box-sizing: border-box;
+  }
+  
+  button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #45a049;
+  }
+  
+  #booking-form, #reservation-checker {
+    display: none;
+  }
+  
